@@ -1,0 +1,23 @@
+.app-container {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  background-color: #f8f9fa;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.navbar {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.nav-link {
+  color: #fff;
+  &:hover {
+    color: #f8f9fa;
+  }
+}
+

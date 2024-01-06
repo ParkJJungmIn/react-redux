@@ -1,0 +1,98 @@
+/* 기본 스타일 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    margin: 0;
+    padding: 0;
+}
+
+/* 앱 컨테이너 */
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* 로그인 카드 스타일 */
+.modern-login-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.modern-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* 폼 스타일 */
+.modern-form .form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.is-invalid {
+    border-color: #e74c3c;
+}
+
+.invalid-feedback {
+    color: #e74c3c;
+    font-size: 14px;
+}
+
+/* 버튼 스타일 */
+.btn {
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.modern-login-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.modern-login-btn:hover {
+    background-color: #0056b3;
+}
+
+.modern-register-link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.modern-register-link:hover {
+    text-decoration: underline;
+}
